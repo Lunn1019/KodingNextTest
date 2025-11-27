@@ -4,54 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name | Portfolio</title>
-    <link href="../bootstrap/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-      body {
-        scroll-behavior: smooth;
-      }
-      header {
-        background: #111;
-      }
-      header a {
-        color: #fff;
-        margin-right: 1rem;
-      }
-      header a:hover {
-        color: gray;
-      }
-      #profile {
-        background: #111;
-        color: #fff;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      }
-      .btn-custom {
-        background-color: #f39c12;
-        color: #fff;
-      }
-      .btn-custom:hover {
-        background-color: #e67e22;
-        color: #fff;
-      }
-      footer {
-        background: #111;
-        color: #fff;
-        padding: 2rem 0;
-      }
-      footer a {
-        color: #f39c12;
-        margin: 0 0.5rem;
-        text-decoration: none;
-      }
-    </style>
+    <link href="../../bootstrap/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
   </head>
   <body>
 
-    <!-- Navbar -->
+    <!-- NAVBAR -->
     <header class="fixed-top py-3">
       <div class="container d-flex justify-content-between align-items-center">
         <h3 class="text-white">Koding Next Test</h3>
@@ -67,7 +25,7 @@
     <!-- PROFILE -->
     <section id="profile" class="position-relative text-center text-white" style="height: 100vh; overflow: hidden;">
       <video autoplay muted loop playsinline class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
-          <source src="../assets/background.mp4" type="video/mp4">
+          <source src="../../assets/background.mp4" type="video/mp4">
       </video>
       <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.9);"></div>
 
@@ -87,14 +45,14 @@
       </div>
     </section>
 
-    <!-- Projects -->
+    <!-- PROJECTS -->
     <section id="projects" class="py-5 bg-light">
       <div class="container">
         <h2 class="text-center mb-5">Projects</h2>
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card h-100 shadow-sm">
-              <img src="../assets/keppi.png" class="card-img-top" alt="Keppi">
+              <img src="../../assets/keppi.png" class="card-img-top" alt="Keppi">
               <div class="card-body">
                 <h5 class="card-title">Keppi Adventure</h5>
                 <p class="card-text">This is my team's "Interra Studio" first game project with "Ghazlabs Tech" as my client. <br> itch.io password : KeppiCode</p>
@@ -104,7 +62,7 @@
           </div>
           <div class="col-md-4">
             <div class="card h-100 shadow-sm">
-              <img src="../assets/fragments.jpg" class="card-img-top" alt="Project 2">
+              <img src="../../assets/fragments.jpg" class="card-img-top" alt="Project 2">
               <div class="card-body">
                 <h5 class="card-title">Fragments Of Us</h5>
                 <p class="card-text">This is not a client project, but more of a special project for me. I made this game for my girlfriend's birthday. <br> The game is build on mobile so this button will be directed to github</p>
@@ -114,7 +72,7 @@
           </div>
           <div class="col-md-4">
             <div class="card h-100 shadow-sm">
-              <img src="../assets/bosnet.jpg" class="card-img-top" alt="Project 3">
+              <img src="../../assets/bosnet.jpg" class="card-img-top" alt="Project 3">
               <div class="card-body">
                 <h5 class="card-title">Bosnet Distribution</h5>
                 <p class="card-text">This is my first full-time role as a software developer, where I focus on building websites and applications, particularly in backend development. Due to company policies, I am unable to share any GitHub repositories or products.</p>
@@ -123,7 +81,7 @@
           </div>
           <div class="col-md-4">
             <div class="card h-100 shadow-sm">
-              <img src="../assets//interra.png" class="card-img-top" alt="Project 3">
+              <img src="../../assets//interra.png" class="card-img-top" alt="Project 3">
               <div class="card-body">
                 <h5 class="card-title">Interra SDK</h5>
                 <p class="card-text">This is the game project I'm currently working on, some kind of software development tools for unity game development. Since this is a team project, I'm unable to share any GitHub repositories or products.</p>
@@ -142,7 +100,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer class="text-center">
       &copy; Lunardi |
       <a href="https://www.linkedin.com/in/lunardi-halim?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">LinkedIn</a> |

@@ -1,0 +1,49 @@
+body {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #111;
+}
+
+header a {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+header a:hover {
+  color: gray;
+}
+
+#profile {
+  background: #111;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-custom {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.btn-custom:hover {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+footer a {
+  color: #f39c12;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
